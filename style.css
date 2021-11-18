@@ -149,3 +149,35 @@ h2::after {
     transform: scale(1.1);
     transition-duration: 1s;
 }
+
+
+/* FOOTER */
+
+footer a {
+    color: var(--gray);
+    font-size: 3rem;
+    padding: 0px 10px;
+}
+
+footer i:hover {
+    animation: footer;
+    animation-duration: 2s;
+}
+
+@keyframes footer {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        color: var(--orangered);
+    }
+
+    50% {
+        color: rgb(165, 42, 42);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
