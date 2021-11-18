@@ -74,3 +74,23 @@ h2::after {
 .navbar-toggler {
     background-color: var(--orange);
 }
+
+/* HEADER */
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0 !important;
+}
+
+.btn-danger {
+    background: var(--orange);
+    border: var(--orange);
+}
+
+.btn-danger:hover {
+    background: var(--orangered);
+    transition: var(--transition);
+}
