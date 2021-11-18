@@ -1,0 +1,41 @@
+/* GOOTLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+/* VARIABLES */
+
+:root {
+    --orange: #FF9505;
+    --gray: #353531;
+    --lighgray: #eee;
+    --white: #fff;
+    --orangered: orangered;
+    --transition: .4 ease-in-out;
+}
+
+
+/* DEAFULT STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: var(--gray);
+}
+
+.py-5 {
+    padding: 100px 0px !important;
+}
+
+h2::after {
+    display: block;
+    content: "";
+    margin: 30px auto;
+    width: 150px;
+    height: 4px;
+    background: var(--orangered);
+}
