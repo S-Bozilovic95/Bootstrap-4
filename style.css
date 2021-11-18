@@ -119,3 +119,33 @@ h2::after {
     color: var(--orange);
     font-size: 1.2rem;
 }
+
+/* PORTFOLIO */
+
+.portfolio .card {
+    position: relative;
+}
+
+.portfolio .corner-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: var(--orange);
+    color: var(--white);
+}
+
+.portfolio .corner-text p {
+    padding: 10px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.portfolio .card-text {
+    padding: 10px;
+    font-weight: 20px;
+}
+
+.portfolio img:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
