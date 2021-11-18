@@ -39,3 +39,38 @@ h2::after {
     height: 4px;
     background: var(--orangered);
 }
+
+
+/* NAVBAR */
+
+
+.navbar {
+    background: rgba(53, 53, 49, .9) !important;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    color: var(--orange) !important;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.navbar-brand:hover {
+    transition: var(--transition);
+    color: var(--orangered) !important;
+}
+
+.nav-link {
+    color: var(--white) !important;
+    text-transform: uppercase;
+    padding: 0px 35px;
+}
+
+.nav-link:hover {
+    color: var(--orange) !important;
+    transition: var(--transition);
+}
+
+.navbar-toggler {
+    background-color: var(--orange);
+}
